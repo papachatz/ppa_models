@@ -86,15 +86,15 @@ end
 figure();
 plot(xrange, mycdf);
 
-mypdf = [];
-for i=6:5:length(xrange)    
-   mypdf = [mypdf mycdf(i)-mycdf(i-1)]; 
-end
-figure();plot(xrange(6:5:end), mypdf);
-mydata = [xrange(6:5:end); mypdf];
-fileID = fopen('ks_16_pdf.txt','w');
-fprintf(fileID,'%f %f\n',mydata);
-fclose(fileID);
+% mypdf = [];
+% for i=6:5:length(xrange)    
+%    mypdf = [mypdf mycdf(i)-mycdf(i-1)]; 
+% end
+% figure();plot(xrange(6:5:end), mypdf);
+% mydata = [xrange(6:5:end); mypdf];
+% fileID = fopen('ks_16_pdf.txt','w');
+% fprintf(fileID,'%f %f\n',mydata);
+% fclose(fileID);
 
 %%
 fileID = fopen('KOGGE_STONE_32_VTHINTRA_hist.txt','r');
