@@ -25,3 +25,10 @@ KNOWLES1222_VTHINTRA_hist.txt
 BRENT_KUNG_VTHINTRA_hist.txt 
 HAN_CARLSON_VTHINTRA_hist.txt 
 LADNER_FISCHER_VTHINTRA_hist.txt 
+
+
+Algorithmic construction of transformation matrix A for parallel-prefix nodes
+KS16.py
+LF16.py
+HC16.py
+BK16.py
