@@ -28,12 +28,12 @@ print G;
 G = sorted(G, key=lambda tup: tup[1]);
 G, Gd = zip(*G);
 G = list(G);
-print G
+print G;
 
 # Initialize A matrix
 A = [[0 for j in range(len(G))] for i in range(len(paths))];
 
-# A matrix constraction
+# A matrix construction
 for path in paths:
     for node in G:
         if(node in path):
