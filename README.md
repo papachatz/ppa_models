@@ -2,14 +2,14 @@
 
 The following MATLAB scripts are provided:
 
-cdf_ks_spice.m: Delay yield estimation for 16-bit Kogge-Stone adder 
-cdf_ks_32_spice.m: Delay yield estimation for 32-bit Kogge-Stone adder 
-cdf_sl_spice.m: Delay yield estimation for 16-bit Sklansky adder 
-cdf_kn1112_spice.m: Delay yield estimation for 16-bit Knowles (1,1,1,2) adder 
-cdf_kn1222_spice.m: Delay yield estimation for 16-bit Knowles (1,2,2,2) adder 
-cdf_bk_spice.m: Delay yield estimation for 16-bit Brenk-Kung adder 
-cdf_hc_spice.m: Delay yield estimation for 16-bit Han-Carlson adder 
-cdf_lf_spice.m: Delay yield estimation for 16-bit Ladner-Fischer adder 
+[cdf_ks_spice.m](https://github.com/papachatz/ppa_models/blob/main/cdf_ks_spice.m): Delay yield estimation for 16-bit Kogge-Stone adder <br />
+[cdf_ks_32_spice.m](https://github.com/papachatz/ppa_models/blob/main/cdf_ks_32_spice.m): Delay yield estimation for 32-bit Kogge-Stone adder <br />
+[cdf_sl_spice.m](https://github.com/papachatz/ppa_models/blob/main/cdf_sl_spice.m): Delay yield estimation for 16-bit Sklansky adder <br />
+[cdf_kn1112_spice.m](https://github.com/papachatz/ppa_models/blob/main/cdf_kn1112_spice.m): Delay yield estimation for 16-bit Knowles (1,1,1,2) adder <br />
+[cdf_kn1222_spice.m](https://github.com/papachatz/ppa_models/blob/main/cdf_kn1222_spice.m): Delay yield estimation for 16-bit Knowles (1,2,2,2) adder <br />
+[cdf_bk_spice.m](https://github.com/papachatz/ppa_models/blob/main/cdf_bk_spice.m): Delay yield estimation for 16-bit Brenk-Kung adder <br />
+[cdf_hc_spice.m](https://github.com/papachatz/ppa_models/blob/main/cdf_hc_spice.m): Delay yield estimation for 16-bit Han-Carlson adder <br />
+[cdf_lf_spice.m](https://github.com/papachatz/ppa_models/blob/main/cdf_lf_spice.m): Delay yield estimation for 16-bit Ladner-Fischer adder <br />
 
 Models are constructed based on Spice mean maximum delay and standard deviation for 
 each cell.
@@ -17,21 +17,21 @@ each cell.
 The following files comprise experimental Monte-Carlo based maximum-delay data for 
 parallel-prefix adders:
 
-KOGGE_STONE_VTHINTRA_hist.txt
-KOGGE_STONE_32_VTHINTRA_hist.txt 
-SKLANSKY_VTHINTRA_hist.txt 
-KNOWLES1112_VTHINTRA_hist.txt 
-KNOWLES1222_VTHINTRA_hist.txt 
-BRENT_KUNG_VTHINTRA_hist.txt 
-HAN_CARLSON_VTHINTRA_hist.txt 
-LADNER_FISCHER_VTHINTRA_hist.txt 
+[KOGGE_STONE_VTHINTRA_hist.txt](https://github.com/papachatz/ppa_models/blob/main/KOGGE_STONE_VTHINTRA_hist.txt) <br />
+[KOGGE_STONE_32_VTHINTRA_hist.txt](https://github.com/papachatz/ppa_models/blob/main/KOGGE_STONE_32_VTHINTRA_hist.txt) <br />
+[SKLANSKY_VTHINTRA_hist.txt](https://github.com/papachatz/ppa_models/blob/main/SKLANSKY_VTHINTRA_hist.txt) <br />
+[KNOWLES1112_VTHINTRA_hist.txt](https://github.com/papachatz/ppa_models/blob/main/KNOWLES1112_VTHINTRA_hist.txt) <br />
+[KNOWLES1222_VTHINTRA_hist.txt](https://github.com/papachatz/ppa_models/blob/main/KNOWLES1222_VTHINTRA_hist.txt) <br />
+[BRENT_KUNG_VTHINTRA_hist.txt](https://github.com/papachatz/ppa_models/blob/main/BRENT_KUNG_VTHINTRA_hist.txt) <br />
+[HAN_CARLSON_VTHINTRA_hist.txt](https://github.com/papachatz/ppa_models/blob/main/HAN_CARLSON_VTHINTRA_hist.txt) <br />
+[LADNER_FISCHER_VTHINTRA_hist.txt](https://github.com/papachatz/ppa_models/blob/main/LADNER_FISCHER_VTHINTRA_hist.txt) <br />
 
 
-Algorithmic construction of transformation matrix A for parallel-prefix nodes
-KS16.py
-LF16.py
-HC16.py
-BK16.py
+Algorithmic construction of transformation matrix A for parallel-prefix nodes <br />
+[KS16.py](https://github.com/papachatz/ppa_models/blob/main/KS16.py) <br />
+[LF16.py](https://github.com/papachatz/ppa_models/blob/main/LF16.py) <br />
+[HC16.py](https://github.com/papachatz/ppa_models/blob/main/HC16.py) <br />
+[BK16.py](https://github.com/papachatz/ppa_models/blob/main/BK16.py) <br />
 
 
 # Contributors
@@ -40,6 +40,6 @@ Kleanthis Papachatzopoulos, and Vassilis Paliouras
 
 # License 
 
-The software related to the models of parallel-prefix adders is licensed under the MIT License.
+The software related to the models of parallel-prefix adders is licensed under the [MIT License](https://github.com/papachatz/ppa_models/blob/main/LICENSE). 
 
 
