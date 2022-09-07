@@ -41,6 +41,6 @@ Kleanthis Papachatzopoulos, and Vassilis Paliouras
 
 # License 
 
-The software related to the models of parallel-prefix adders is licensed under the [MIT License](https://github.com/papachatz/ppa_models/blob/main/LICENSE). 
+The software is licensed under the [MIT License](https://github.com/papachatz/ppa_models/blob/main/LICENSE). 
 
 
