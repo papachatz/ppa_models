@@ -10,6 +10,7 @@ The following MATLAB scripts are provided:
 [cdf_bk_spice.m](https://github.com/papachatz/ppa_models/blob/main/matlab/cdf_bk_spice.m): Delay yield estimation for 16-bit Brenk-Kung adder <br />
 [cdf_hc_spice.m](https://github.com/papachatz/ppa_models/blob/main/matlab/cdf_hc_spice.m): Delay yield estimation for 16-bit Han-Carlson adder <br />
 [cdf_lf_spice.m](https://github.com/papachatz/ppa_models/blob/main/matlab/cdf_lf_spice.m): Delay yield estimation for 16-bit Ladner-Fischer adder <br />
+[cdf_ks_udm.m](https://github.com/papachatz/ppa_models/blob/main/matlab/unit_delay/ks_adder.m): Delay yield estimation based on unit delay model for Kogge-Stone adder 
 
 Models are constructed based on Spice mean maximum delay and standard deviation for 
 each cell.
