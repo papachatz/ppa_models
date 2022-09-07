@@ -1,4 +1,4 @@
-# ppa_models
+# File Description
 
 The following MATLAB scripts are provided:
 
@@ -32,3 +32,14 @@ KS16.py
 LF16.py
 HC16.py
 BK16.py
+
+
+# Contributors
+
+Kleanthis Papachatzopoulos, and Vassilis Paliouras
+
+# License 
+
+The software related to the models of parallel-prefix adders is licensed under the MIT License.
+
+
